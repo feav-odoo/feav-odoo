@@ -110,6 +110,9 @@ click on *Update information* under your company name.
 In the resulting form, put your full address (including zip code), RFC (VAT number), and the rest of
 the data.
 
+# aqui colocar los requisitos del cfdi 4.0: Razon Social, Regimen Fiscal
+# un IMPORTANT para el external trade y delivery guide
+
 .. important::
    From a legal point of view, a Mexican company must use the local currency (MXN). Therefore, Odoo
    does not provide features to manage an alternative configuration. If you want to manage another
