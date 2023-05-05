@@ -44,7 +44,7 @@ Modules
 To install the Mexican localization module, go to :menuselection:`Apps`, then remove the default
 filter "Apps" and search for ``l10n_mx``.
 
-.. image:: feav-odoo/Screenshot 2023-05-05 16.00.43.png
+.. image:: /Screenshot 2023-05-05 16.00.43.png
    :align: center
    :alt: Installation of the Mexican localization module in Odoo Apps
 
