@@ -100,18 +100,20 @@ Enter legal information
 -----------------------
 
 After verifying the general configuration, you must verify that the company is configured with the
-correct data. To do so, go to :menuselection:`Settings --> General Settings --> Companies`, and
-click on *Update information* under your company name.
+correct data. To do so:
+
+- Activate :doc:'Developer Mode<https://www.odoo.com/documentation/16.0/applications/general/developer_mode.html>' 
+- Go to :menuselection:`Settings --> General Settings --> Companies`, and click on *Update information* 
+  under your company name.
 
 .. image:: mexico/mx_co_02.png
    :align: center
    :alt: Update the company's details in the Settings of Odoo
-
-In the resulting form, put your full address (including zip code), RFC (VAT number), and the rest of
+   
+ - Select :menuselection:'Contact' and, put your full address (including zip code), RFC (VAT number), and the rest of
 the data.
-
-# aqui colocar los requisitos del cfdi 4.0: Razon Social, Regimen Fiscal
-# un IMPORTANT para el external trade y delivery guide
+ - According to the requirements of the CFDI 4.0, the name of your main contact must coincide to your Business Name registered in the SAT
+ without the legal entity abbreviation.
 
 .. important::
    From a legal point of view, a Mexican company must use the local currency (MXN). Therefore, Odoo
@@ -130,7 +132,7 @@ the data.
 
 .. tip::
    If you want to test the Mexican localization, you can configure the company with a real address
-   within Mexico (including all fields) and add ``EKU9003173C9`` as RFC.
+   within Mexico (including all fields), add ``EKU9003173C9`` as RFC and ``ESCUELA KEMPER URGATE`` as the Company Name.
 
 Set the fiscal regime of the company
 ------------------------------------
@@ -159,6 +161,12 @@ invoice validation: **complete address** (including postal code, city, state, co
 .. image:: mexico/mx_co_05.png
    :align: center
    :alt: Contact form example
+   
+.. important::
+   As with your own company, all of your contacts need their correct Business Name. Having this field  Proof of Fiscal Situation a legal point of view, a Mexican company must use the local currency (MXN). Therefore, Odoo
+   does not provide features to manage an alternative configuration. If you want to manage another
+   currency, let MXN be the default currency and use a :doc:`pricelist
+   </applications/sales/sales/products_prices/prices/pricing>` instead.
 
 Taxes Configuration
 -------------------
