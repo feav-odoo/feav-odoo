@@ -74,8 +74,7 @@ are needed as they add fields that can unnecessarily complicate form filling.
 #. | **Odoo Mexican XML Polizas Export (l10n_mx_xml_polizas & l10n_mx_xml_polizas_edi)**
    | With this module, you will be able to export your Journal Entries in XML ready to be uploaded
      to the SAT.
-#. | **Mexico - Electronic Delivery Guide (l10n_mx_edi_stock, l10n_mx_edi_stock_40, l10n_mx_edi_stock_extended 
-     & l10n_mx_edi_stock_extended_40)**
+#. | **Mexico - Electronic Delivery Guide (l10n_mx_edi_stock, l10n_mx_edi_stock_40, l10n_mx_edi_stock_extended & l10n_mx_edi_stock_extended_40)**
    | By installing this module, you can create a delivery guide: a proof that you're sending goods between A & B,
      in a signed electronic document.
 
@@ -110,10 +109,9 @@ correct data. To do so:
    :align: center
    :alt: Update the company's details in the Settings of Odoo
    
-- Select :menuselection:'Contact' and, put your full address (including zip code), RFC (VAT number), and the rest of
+- Select **Contact** and, put your full address (including zip code), RFC (VAT number), and the rest of
 the data.
-- According to the requirements of the CFDI 4.0, the name of your main contact must coincide to your Business Name registered in the SAT
- without the legal entity abbreviation.
+-According to the requirements of the CFDI 4.0, the name of your main contact must coincide to your Business Name registered in the SAT without the legal entity abbreviation.
 
 .. important::
    From a legal point of view, a Mexican company must use the local currency (MXN). Therefore, Odoo
