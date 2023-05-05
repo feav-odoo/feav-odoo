@@ -110,9 +110,9 @@ correct data. To do so:
    :align: center
    :alt: Update the company's details in the Settings of Odoo
    
- - Select :menuselection:'Contact' and, put your full address (including zip code), RFC (VAT number), and the rest of
+- Select :menuselection:'Contact' and, put your full address (including zip code), RFC (VAT number), and the rest of
 the data.
- - According to the requirements of the CFDI 4.0, the name of your main contact must coincide to your Business Name registered in the SAT
+- According to the requirements of the CFDI 4.0, the name of your main contact must coincide to your Business Name registered in the SAT
  without the legal entity abbreviation.
 
 .. important::
