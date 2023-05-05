@@ -16,7 +16,8 @@ Odoo Enterprise users in Mexico have free access to a set of modules that allow 
 electronic invoices according to the specifications of the SAT for `version 4.0 of the CFDI
 <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/Anexo_20_Guia_de_llenado_CFDI.pdf>`_,
 a legal requirement as of January 1, 2022. These modules also add relevant accounting reports (for
-example, the DIOT), and enable foreign trade, with support for associated customs operations.
+example, the DIOT), enable foreign trade, support for associated customs operations, and creation 
+of delivery guides.
 
 With the Mexican location in Odoo you will not only be able to comply with the legal requirements to
 invoice in Mexico, but also use it as your accounting system, satisfying the normal needs of the
@@ -43,7 +44,7 @@ Modules
 To install the Mexican localization module, go to :menuselection:`Apps`, then remove the default
 filter "Apps" and search for ``l10n_mx``.
 
-.. image:: mexico/mx_mo_01.png
+.. image:: feav-odoo/Screenshot 2023-05-05 16.00.43.png
    :align: center
    :alt: Installation of the Mexican localization module in Odoo Apps
 
@@ -59,9 +60,9 @@ The following modules are necessary for all databases that require Mexican local
    | All the basic data to manage accounting, taxes and the chart of accounts. The installed chart
      of accounts is based on `the SAT account grouping code
      <https://www.gob.mx/cms/uploads/attachment/file/151586/codigo_agrupador.pdf>`_.
-#. | **EDI for Mexico (l10n_mx_edi & l10n_mx_edi_extended)**
-   | Necessary for electronic transactions, CFDI 3.3, payment complement, and addenda on invoices.
-#. | **Odoo Mexican localization reports (l10n_mx_reports & l10n_mx_reports_closing)**
+#. | **EDI for Mexico (l10n_mx_edi, l10n_mx_edi_40, l10n_mx_edi_extended & l10n_mx_edi_extended_40)**
+   | Necessary for electronic transactions, CFDI 4.0, payment complement, external trade and addenda on invoices.
+#. | **Odoo Mexican Localization Reports (l10n_mx_reports, l10n_mx_reports_closing)**
    | All mandatory reports for electronic accounting. (Requires the accounting application).
 
 The following modules are optional, and should be installed only if they meet a specific
@@ -69,10 +70,14 @@ organization requirement. Installing these modules is not recommended unless you
 are needed as they add fields that can unnecessarily complicate form filling.
 
 #. | **Odoo Mexico Localization for Stock / Landing (l10n_mx_edi_landing)**
-   | This module allows managing the requests as part of the shipping costs.
-#. | **Odoo Mexican XML Polizas Export (l10n_mx_xml_polizas)**
+   | This module allows managing customs numbers related with landed costs in electronic documents.
+#. | **Odoo Mexican XML Polizas Export (l10n_mx_xml_polizas & l10n_mx_xml_polizas_edi)**
    | With this module, you will be able to export your Journal Entries in XML ready to be uploaded
      to the SAT.
+#. | **Mexico - Electronic Delivery Guide (l10n_mx_edi_stock, l10n_mx_edi_stock_40, l10n_mx_edi_stock_extended 
+     & l10n_mx_edi_stock_extended_40)**
+   | By installing this module, you can create a delivery guide: a proof that you're sending goods between A & B,
+     in a signed electronic document.
 
 Configuration
 =============
