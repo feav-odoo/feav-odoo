@@ -160,10 +160,7 @@ invoice validation: **complete address** (including postal code, city, state, co
    :alt: Contact form example
    
 .. important::
-   As with your own company, all of your contacts need their correct Business Name. Having this field  Proof of Fiscal Situation a legal point of view, a Mexican company must use the local currency (MXN). Therefore, Odoo
-   does not provide features to manage an alternative configuration. If you want to manage another
-   currency, let MXN be the default currency and use a :doc:`pricelist
-   </applications/sales/sales/products_prices/prices/pricing>` instead.
+   As with your own company, all of your contacts need their correct Business Name. In addition to this, you need to set the correct **Fiscal Regime** in the tab **MX EDI** Having a Proof of Fiscal Situation....
 
 Taxes Configuration
 -------------------
